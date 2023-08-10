@@ -1,7 +1,7 @@
 import { __ } from '@wordpress/i18n';
 import { useBlockProps } from '@wordpress/block-editor';
 import './editor.scss';
-import classnames from classnames
+import classnames from "classnames";
 
 export default function Edit() {
 	return (
