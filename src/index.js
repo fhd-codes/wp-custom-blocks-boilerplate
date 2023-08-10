@@ -7,7 +7,11 @@ import metadata from './block.json';
 
 
 registerBlockType( metadata.name, {
-
+	icon: {
+		src: 'smiley',
+		background: '#000',
+		foreground: '#fff',
+	},
 	edit: Edit,
 	save: Save,
 } );
