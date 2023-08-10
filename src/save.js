@@ -1,5 +1,5 @@
 import { useBlockProps } from '@wordpress/block-editor';
-import classnames from classnames
+import classnames from 'classnames';
 
 
 export default function Save() {
